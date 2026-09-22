@@ -74,7 +74,7 @@ pip install -r requirements.txt
 
 ---
 
-### 2. Выбор и переключение LLM-провайдера
+### 4. Выбор и переключение LLM-провайдера
 
 Переключение осуществляется через CLI-параметр `--provider [mock|local|openai]` или через переменную окружения `LLM_PROVIDER` в `.env` (шаблон в `.env.example`).
 
@@ -105,7 +105,7 @@ python main.py --provider openai --model gpt-4o-mini
 
 ---
 
-### 3. Дополнительные опции CLI
+### 5. Дополнительные опции CLI
 
 ```bash
 # Запуск конкретного тест-кейса:
@@ -122,7 +122,7 @@ python main.py --provider mock --request "Разработай безопасн�
 
 ---
 
-## 4. Демонстрация работы (Лог консоли)
+## 6. Демонстрация работы (Лог консоли)
 
 Ниже приведен реальный лог исполнения сценария `Case 1: Secure Session Token Manager`:
 
@@ -185,7 +185,7 @@ Returning code and review findings to DeveloperAgent for remediation pass #1...
 
 ---
 
-## 5. Запуск тестов контура
+## 7. Запуск тестов контура
 
 Для проверки целостности Harness, валидации схемы навыков и контрактов:
 ```bash
